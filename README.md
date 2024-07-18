@@ -1,6 +1,6 @@
 # Airtable Backup Script
 
-This project is a Node.js tool designed to create a comprehensiv backup of an Airtable base. It backs up table structures (JSON), data (JSON), and file attachments, ensuring you have a complete snapshot of your Airtable base.
+This project is a Node.js tool designed to create a comprehensive backup of an Airtable base. It backs up table structures (JSON), data (JSON), and file attachments, ensuring you have a complete snapshot of your Airtable base.
 
 Due to Airtable API restrictions, automation scripts are not backed up.
 
@@ -48,7 +48,7 @@ Here's how to find each of these values:
 2. Go to your the [Developer Hub](https://airtable.com/create/tokens).
 3. Create a new Personal Access Token
 
-   You need to create a new personal access token with the following scopes:
+   You need to create a new Personal Access Token with the following scopes:
 
    - `schema.bases:read`
    - `data.records:read`
@@ -123,3 +123,6 @@ After creating your backup, consider the following best practices:
    - Monthly backups for the past year
 
 4. **Automation**: Set up a cron job (on Unix-based systems) or a scheduled task (on Windows) to run the backup process automatically at regular intervals.
+
+## No Warranty
+This software is provided for use at your own risk, without any warranty of any kind. The authors or copyright holders are not liable for any claims, damages, or other liabilities that may arise from the use or inability to use this software.
