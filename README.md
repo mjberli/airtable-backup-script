@@ -125,4 +125,5 @@ After creating your backup, consider the following best practices:
 4. **Automation**: Set up a cron job (on Unix-based systems) or a scheduled task (on Windows) to run the backup process automatically at regular intervals.
 
 ## No Warranty
+
 This software is provided for use at your own risk, without any warranty of any kind. The authors or copyright holders are not liable for any claims, damages, or other liabilities that may arise from the use or inability to use this software.
